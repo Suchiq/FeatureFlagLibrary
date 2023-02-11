@@ -19,8 +19,8 @@ allprojects {
 
 ```
 dependencies {
-	        implementation 'com.github.   Suchiq:FeatureFlagLibrary:1.0.0'
-	}
+	    implementation 'com.github.Suchiq:FeatureFlagLibrary:1.0.0'
+           }
 ```
 
 3. usage in Activity or fragment 
