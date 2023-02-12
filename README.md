@@ -28,8 +28,12 @@ dependencies {
 ```
 lateinit var flag: FeatureFlagProvider
 
+// initialize feature flag provider
 flag = FeatureFlagProvider()
 context?.let { flag.init(it) }
+
+//set key value, this can be set based on backend response 
+
 flag.setKeyValue(SHOULD_HIDE, true)
 ```
 4. Control visibility by adding flag in activity/fragment
