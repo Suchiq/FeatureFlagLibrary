@@ -3,7 +3,7 @@
 
  
 Feature flags library helps to turns certain functionality on and off during runtime, without deploying new code. 
-## Usage
+## Installation
 
 1. Add JitPack to your project build.gradle
 
