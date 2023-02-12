@@ -2,7 +2,7 @@
 # Feature Flag Library
 
  
-Feature flags library helps to turns certain functionality on and off during runtime, without deploying new code. 
+Feature flags library helps to turns certain functionality on and off during runtime without deploying new code. 
 ## Installation
 
 1. Add JitPack to your project build.gradle
@@ -20,7 +20,7 @@ allprojects {
 ```
 dependencies {
 	    implementation 'com.github.Suchiq:FeatureFlagLibrary:1.0.0'
-           }
+             }
 ```
 
 3. usage in Activity or fragment 
@@ -29,6 +29,7 @@ dependencies {
 lateinit var flag: FeatureFlagProvider
 
 // initialize feature flag provider
+
 flag = FeatureFlagProvider()
 context?.let { flag.init(it) }
 
